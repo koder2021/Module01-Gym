@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Спортивный клуб Gym</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -12,6 +12,7 @@
     <link href="fonts/Montserrat-Regular.ttf" rel="stylesheet">-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!--Header-->
@@ -47,7 +48,7 @@
                 <div class="text-start">
                     <h1 class="text-start-title">
                         Онлайн тренировки любой сложности
-                        <span>> 15 тренировок</span>
+                        <span>&gt;&nbsp;15&nbsp;тренировок</span>
                     </h1>
                     <div class="text-start-text">
                         <p >
@@ -271,8 +272,16 @@
 
     </footer>
 
-    
-    
+    <!--<a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>-->
+    <!--<div id="modal" class="modal">
+        <ul class="header-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#" class="active">Меню</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <button class="burger-close" onclick="closeModal()"></button>
+    </div>-->
     
 
     <script>
@@ -291,7 +300,7 @@
         }
 
         // Button Up
-        window.onscroll = function(){scrollFunction()};
+        /*window.onscroll = function(){scrollFunction()};
         const upbuttons = document.querySelectorAll(".button-up");
         for (const upbutton of upbuttons) {
             upbutton.addEventListener("click", clickHandler);
@@ -303,14 +312,14 @@
             document.querySelector(href).scrollIntoView({
                 behavior: "smooth"
             });
-        }
-        function scrollFunction(){
+        }*/
+        /*function scrollFunction(){
             if ( document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000){
                 document.getElementById('btnUp').className = 'button-up visible';
             } else {
                 document.getElementById('btnUp').className = 'button-up hidden';
             }
-        }
+        }*/
 
         // Menu
        function openModal() {
