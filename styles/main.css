@@ -503,6 +503,7 @@ body {
     margin-bottom: 40px;
     color: #2B3541;
     position: relative;
+    z-index: 1;
 }
 .h-mailing::before {
     content: '';
@@ -656,6 +657,8 @@ body {
 }
 .all4 {
     margin-bottom: 240px;
+    background: #F3F3F3;
+    z-index: -2;
 }
 
 /*Footer*/
